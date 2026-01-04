@@ -28,6 +28,7 @@ public class Page extends HttpServlet {
 	
 	String name=request.getParameter("name");
 	pw.print("WELCOME "+name);
+	pw.print("heloooooo!!!");
 	pw.close();
 	}
 

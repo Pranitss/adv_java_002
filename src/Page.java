@@ -16,7 +16,6 @@ public class Page extends HttpServlet {
    
     public Page() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	
@@ -28,7 +27,7 @@ public class Page extends HttpServlet {
 	
 	String name=request.getParameter("name");
 	pw.print("WELCOME "+name);
-	pw.print("heloooooo!!!");
+	pw.print("hello");
 	pw.close();
 	}
 
